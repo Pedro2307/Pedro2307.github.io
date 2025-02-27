@@ -110,3 +110,13 @@ footer a:hover {
     max-width: 500px;
     transition: transform 0.3s;
 }
+
+footer a {
+    color: #bb86fc; /* Cor visível para os links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #985eff; /* Muda de cor ao passar o mouse */
+}
