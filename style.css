@@ -1,0 +1,56 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização geral */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0077b6;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #023e8a;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #023e8a;
+}
+
+/* Botões */
+.button {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #023e8a;
+}
