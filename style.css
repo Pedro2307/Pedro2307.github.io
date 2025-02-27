@@ -79,6 +79,18 @@ a:hover {
     margin: 10px 0;
 }
 
-h2 {
+footer {
     margin-top: 40px;
+    padding: 20px;
+    background: #0077b6;
+    color: white;
+}
+
+footer a img {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.2);
 }
