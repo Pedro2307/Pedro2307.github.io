@@ -221,3 +221,21 @@ footer a:hover {
 #prevBtn:hover, #nextBtn:hover {
     background-color: #985eff;
 }
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer a img {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.2);
+}
