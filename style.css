@@ -239,3 +239,41 @@ footer a img {
 footer a:hover img {
     transform: scale(1.2);
 }
+
+/* Ajustes gerais para telas menores */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .carousel {
+        flex-direction: column; /* Empilha os elementos no carrossel */
+        gap: 10px;
+    }
+
+    #prevBtn, #nextBtn {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .project-card {
+        max-width: 100%; /* Ajusta a largura para ocupar toda a tela */
+        padding: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer a img {
+        width: 25px; /* Reduz tamanho dos ícones no mobile */
+    }
+}
