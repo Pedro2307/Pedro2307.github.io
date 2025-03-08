@@ -277,3 +277,117 @@ footer a:hover img {
         width: 25px; /* Reduz tamanho dos ícones no mobile */
     }
 }
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo escuro moderno */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #bb86fc;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b0b0b0;
+}
+
+/* Seções */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Carrossel */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.project-card {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    min-height: 150px;
+    text-align: center;
+    display: none;
+}
+
+.project-card.active {
+    display: block;
+}
+
+/* Botões de navegação do carrossel */
+#prevBtn, #nextBtn {
+    background-color: #bb86fc;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #985eff;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+}
+
+footer a img {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-card {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
